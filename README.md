@@ -1,6 +1,6 @@
-# ⚡ Smart Appliance Scheduling Dataset
+#  Smart Appliance Scheduling Dataset
 
-## 📌 Project Overview
+##  Project Overview
 
 This repository contains a structured dataset for modeling and analyzing **smart appliance scheduling in energy management systems**.
 
@@ -15,11 +15,11 @@ This project can be used for:
 
 ---
 
-## 🏷️ Appliance Attributes
+##  Appliance Attributes
 
 Each appliance in the dataset contains the following parameters:
 
-### 1️⃣ Name
+### 1️ Name
 
 The name of the appliance.
 
@@ -32,7 +32,7 @@ Example:
 
 ---
 
-### 2️⃣ Type
+### 2️ Type
 
 Appliances are categorized into three types based on scheduling flexibility:
 
@@ -44,7 +44,7 @@ Appliances are categorized into three types based on scheduling flexibility:
 
 ---
 
-### 3️⃣ Dissatisfaction Coefficient (Diss.Coeff.)
+### 3️ Dissatisfaction Coefficient (Diss.Coeff.)
 
 A weighting factor representing user discomfort caused by scheduling deviation.
 
@@ -59,7 +59,7 @@ Lower coefficient → More scheduling flexibility
 
 ---
 
-### 4️⃣ Power Rating
+### 4️ Power Rating
 
 Defines the operational power levels of the appliance (in kW or Watts).
 
@@ -70,7 +70,7 @@ Examples:
 
 ---
 
-### 5️⃣ Time Slot
+### 5️ Time Slot
 
 Defines the normal operating window of the appliance.
 
@@ -84,7 +84,7 @@ This parameter is primarily used for time-shiftable scheduling models.
 
 ---
 
-## 📂 Example Dataset Structure
+##  Example Dataset Structure
 
 ```json
 {
@@ -98,7 +98,7 @@ This parameter is primarily used for time-shiftable scheduling models.
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 * Smart Home Energy Optimization
 * Demand Response Algorithms
@@ -108,7 +108,7 @@ This parameter is primarily used for time-shiftable scheduling models.
 
 ---
 
-## 🛠️ Possible Extensions
+##  Possible Extensions
 
 * Add real-time electricity pricing
 * Integrate renewable energy availability
@@ -122,7 +122,7 @@ This parameter is primarily used for time-shiftable scheduling models.
 
 ---
 
-## 📊 Target Audience
+##  Target Audience
 
 * Energy Management Researchers
 * Smart Grid Developers
@@ -131,6 +131,6 @@ This parameter is primarily used for time-shiftable scheduling models.
 
 ---
 
-## 📜 License
+##  License
 
 This project is open-source and available for academic and research purposes.
